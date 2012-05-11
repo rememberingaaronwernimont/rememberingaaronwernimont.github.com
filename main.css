@@ -1,0 +1,53 @@
+html, body {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+  color: #666666;
+  font-size: 12px;
+  background: #000;
+	height:100%;
+	text-align: center;
+}
+
+a { color: #0A8ECC; }
+
+a:hover {
+	text-decoration: none;
+	color: #CCC;
+}	
+
+h1, h2 {
+	color: #666;
+	margin: 0;
+	padding: 0 0 5px 0;
+	font-size: 16px;
+	padding-bottom: 3px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+
+h1 {
+	padding-bottom: 3px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 { font-size: 14px;}
+
+.bgstretcher-page { text-align: center;}
+
+.page-content {
+  background: white;
+  opacity: 0.9;
+  margin: 150px auto 150px;
+	width: 740px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.page-wrapper { 
+	padding: 30px;
+  min-height: 400px;
+}
