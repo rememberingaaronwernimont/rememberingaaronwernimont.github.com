@@ -49,8 +49,8 @@ p {
 .page-content {
   background: white;
   opacity: 0.8;
-  margin: 200px auto 150px;
-	width: 740px;
+  margin: 400px auto 150px;
+	width: 600px;
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
@@ -59,7 +59,14 @@ p {
 }
 
 a#read_more {
-  margin-left: 555px;
+  margin-left: 425px;
   font-size: 14px;
   font-weight: bold;
+}
+.closing {
+  text-align: center;
+  font-size: 20px;
+}
+.poem {
+  text-align: center;
 }
