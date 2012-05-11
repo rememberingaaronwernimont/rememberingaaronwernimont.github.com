@@ -10,6 +10,12 @@ $(document).ready(function(){
 		anchoring: 'left center',
 		anchoringImg: 'left center'
 	});
+
+  $('#more').hide();
+  $("#read_more").click(function() {
+    $("#more").fadeIn();
+    $("#read_more").hide();
+  });
 	
 	bindEvents();
 });

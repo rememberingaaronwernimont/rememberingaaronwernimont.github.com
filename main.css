@@ -9,7 +9,7 @@ body {
   font-size: 12px;
   background: #000;
 	height:100%;
-	text-align: center;
+  text-align: left !important;
 }
 
 a { color: #0A8ECC; }
@@ -19,7 +19,7 @@ a:hover {
 	color: #CCC;
 }	
 
-h1, h2 {
+h1 {
 	color: #666;
 	margin: 0;
 	padding: 0 0 5px 0;
@@ -27,6 +27,7 @@ h1, h2 {
 	padding-bottom: 3px;
 	margin-bottom: 15px;
 	border-bottom: 1px solid #ccc;
+	text-align: center;
 }
 
 h1 {
@@ -35,19 +36,22 @@ h1 {
 	border-bottom: 1px solid #ccc;
 }
 
-h2 { font-size: 14px;}
-
-.bgstretcher-page { text-align: center;}
+h2 {
+  font-size: 14px;
+}
 
 .page-content {
   background: white;
-  opacity: 0.9;
-  margin: 150px auto 150px;
+  opacity: 0.8;
+  margin: 200px auto 150px;
 	width: 740px;
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
 .page-wrapper { 
 	padding: 30px;
-  min-height: 400px;
+}
+
+a#read_more {
+  margin-left: 588px;
 }
