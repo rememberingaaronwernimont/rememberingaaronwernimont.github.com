@@ -59,9 +59,10 @@ p {
 }
 
 a#read_more {
-  margin-left: 425px;
   font-size: 14px;
   font-weight: bold;
+  margin: 0 0 20px 425px;
+  display: block;
 }
 .closing {
   text-align: center;
@@ -69,4 +70,6 @@ a#read_more {
 }
 .poem {
   text-align: center;
+  margin: 20px 0;
 }
+
