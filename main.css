@@ -50,7 +50,7 @@ p {
   background: white;
   opacity: 0.8;
   margin: 600px auto 150px;
-	width: 600px;
+	width: 700px;
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
@@ -61,7 +61,7 @@ p {
 a#read_more {
   font-size: 14px;
   font-weight: bold;
-  margin: 0 0 20px 425px;
+  margin: 0 0 20px 530px;
   display: block;
 }
 .closing {
